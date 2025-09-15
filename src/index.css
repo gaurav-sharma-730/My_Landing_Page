@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.animated-bg {
+  background: linear-gradient(-20deg, #ff6ec4, #7873f5, #4ade80);
+  background-size: 400% 400%;
+  animation: gradientBgMove 5s ease infinite;
+  position: absolute;
+  inset: 0;
+}
+@keyframes gradientBgMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+img{
+  justify-self: center;
+}
+
+.text-gray-400 {
+  color: #fff;  
+}
+
+.box{
+  align-items: center;
+}
+
+/* On small screens, stop centering across the cross-axis */
+@media (max-width: 640px) {
+  .box {
+    padding-top: 30px;
+    align-items: flex-start; /* 'none' is invalid for align-items */
+  }
+}
+
+.blob {
+  position: absolute;
+  width: 800px;
+  height: 800px;
+  border-radius: 50%;
+  filter: blur(50px);
+  opacity: 0.7;
+  z-index: -1;
+  animation: floatBlob 20s infinite alternate ease-in-out;
+}
+/* Liquid floating animation */
+@keyframes floatBlob {
+  0% {
+    transform: scale(1) translate(0, 0);
+  }
+  50% {
+    transform: scale(1.2) translate(120px, -130px);
+  }
+  100% {
+    transform: scale(1) translate(-120px, 130px);
+  }
+}
