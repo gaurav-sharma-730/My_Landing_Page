@@ -10,7 +10,7 @@ export default function MyLinks() {
     <div className="flex flex-col items-center text-white">
       <div className="text-center mb-6">
         <img
-          src="/Profile_pic/Profile.png"
+          src="/My_Landing_Page/Profile_pic/Profile.png"
           alt="Profile"
           className="w-32 h-32 sm:w-36 sm:h-36 md:w-40 md:h-40 rounded-full border-4 border-white shadow-lg mb-3 object-cover"
         />
