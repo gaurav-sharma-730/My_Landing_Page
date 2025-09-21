@@ -1,7 +1,7 @@
 export const links = [
     {
     title: "GitHub",
-    url: "https://github.com/Gaurav-Jangid-730",
+    url: "https://github.com/Gaurav-Sharma-730",
     type: "icon", // could be "button", "icon", etc.
     icon: "github", // reference icon set
   },
@@ -19,7 +19,7 @@ export const links = [
   },
   {
     title: "Portfolio",
-    url: "https://gaurav-jangid-730.github.io/Portfolio/",
+    url: "https://gaurav-sharma-730.github.io/Portfolio/",
     type: "icon", // could be "button", "icon", etc.
     icon: "slack", // reference icon set
   },
