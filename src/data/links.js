@@ -25,7 +25,7 @@ export const links = [
   },
   {
     title: "TryHackMe",
-    url: "https://tryhackme.com/p/Gauravjangid",
+    url: "https://tryhackme.com/p/Gh0st1nj3ct0r",
     type: "icon",
     icon: "cloud-snow", // reference icon set
   },
