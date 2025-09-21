@@ -7,7 +7,7 @@ export const links = [
   },
   {
     title: "LinkedIn",
-    url: "https://www.linkedin.com/in/gaurav-sharma-cybersecurity/",
+    url: "https://www.linkedin.com/in/gauravsharma730",
     type: "icon",
     icon: "linkedin", // reference icon set
   },
