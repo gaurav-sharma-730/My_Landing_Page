@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Gaurav-Sharma-730.github.io/My_Landing_Page/",
+  "homepage": "https://gaurav-sharma-730.github.io/My_Landing_Page/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
